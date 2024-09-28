@@ -5,6 +5,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Portfolio Sederhana - Adriansyah Ravindra Abubakar 41121100039</title>
             <link href="src/output.css" rel="stylesheet">
+            <link href="src/font.css" rel="stylesheet">
       </head>
       <script>
             // Fungsi untuk membatasi panjang string judul
@@ -65,7 +66,7 @@
       </script>
       <body>
             <div class="bg-background h-full w-full text-white overflow-hidden relative">
-                  <div class='w-full bg-black bg-opacity-50 h-16 md:h-24' style={robotoMono.style}>
+                  <div class='w-full bg-black bg-opacity-50 h-16 md:h-24'>
                         <div class='grid-cols-12 hidden h-full w-full px-0 justify-between md:px-16 lg:grid lg:px-0 lg:justify-start'>
                               <div class='col-span-1'>
                                     <button class='bg-[#1B1A1A] h-full flex flex-row items-center justify-center order-3 w-full md:order-1'>
@@ -74,7 +75,7 @@
                                           </svg>
                                     </button>
                               </div>
-                              <div class='col-span-11'>
+                              <div class='col-span-11 font-roboto-mono'>
                                     <div class='grid-cols-12 text-white bg-transparent h-full items-center border-b-[1.7px] border-white border-opacity-10 hidden md:order-3 lg:grid lg:gap-6 lg:pr-5'>
                                           <div class='h-full col-span-9 2xl:col-span-10'>
                                                 <div class='grid grid-cols-12 h-full'>
@@ -143,8 +144,10 @@
                               </div>
                         </div>
                   </div>
+
+                  <!-- Hero Section -->
                   <div class='grid grid-cols-12 z-0 bg-[#101113] relative overflow-hidden h-[600px] md:h-[690px] lg:h-[480px] xl:h-[590px] 2xl:h-[800px]'>
-                        <div class="absolute left-0 rotate-6 w-full bg-[#212226] flex flex-row scale-105 items-center font-bold h-[30px] bottom-10 md:h-[40px] md:text-lg md:bottom-12 lg:text-2xl lg:h-[60px] xl:h-[80px] xl:text-3xl xl:bottom-7 2xl:bottom-16">
+                        <div class="absolute font-oswald left-0 rotate-6 w-full bg-[#212226] flex flex-row scale-105 items-center font-bold h-[30px] bottom-10 md:h-[40px] md:text-lg md:bottom-12 lg:text-2xl lg:h-[60px] xl:h-[80px] xl:text-3xl xl:bottom-7 2xl:bottom-16">
                               <marquee direction="left" behavior="scroll" loop="">
                                     UI/UX DESIGNER | SOFTWARE ENGINEER | MOTION GRAPHIC DESIGNER | GRAPHIC DESIGNER | VIDEO EDITOR | SOFTWARE ENGINEER | VIDEO EDITOR | 
                                     UI/UX DESIGNER | SOFTWARE ENGINEER | MOTION GRAPHIC DESIGNER | GRAPHIC DESIGNER | VIDEO EDITOR | SOFTWARE ENGINEER | VIDEO EDITOR | 
@@ -152,7 +155,7 @@
                                     UI/UX DESIGNER | SOFTWARE ENGINEER | MOTION GRAPHIC DESIGNER | GRAPHIC DESIGNER | VIDEO EDITOR | SOFTWARE ENGINEER | VIDEO EDITOR
                               </marquee>
                         </div>
-                        <div class="absolute left-0 -rotate-3 w-full bg-gradient-to-r from-[#FCAE18] to-[#FEC557] flex flex-row items-center scale-105 font-bold text-[#1D1C1C] h-[30px] bottom-12 md:h-[40px] md:text-lg md:bottom-8 lg:text-2xl lg:h-[60px] xl:h-[80px] xl:text-3xl xl:bottom-1 2xl:bottom-10">
+                        <div class="absolute font-oswald left-0 -rotate-3 w-full bg-gradient-to-r from-[#FCAE18] to-[#FEC557] flex flex-row items-center scale-105 font-bold text-[#1D1C1C] h-[30px] bottom-12 md:h-[40px] md:text-lg md:bottom-8 lg:text-2xl lg:h-[60px] xl:h-[80px] xl:text-3xl xl:bottom-1 2xl:bottom-10">
                               <marquee direction="right" behavior="scroll" loop="">
                               UI/UX DESIGNER | SOFTWARE ENGINEER | MOTION GRAPHIC DESIGNER | GRAPHIC DESIGNER | VIDEO EDITOR | SOFTWARE ENGINEER | VIDEO EDITOR | 
                               UI/UX DESIGNER | SOFTWARE ENGINEER | MOTION GRAPHIC DESIGNER | GRAPHIC DESIGNER | VIDEO EDITOR | SOFTWARE ENGINEER | VIDEO EDITOR | 
@@ -222,32 +225,32 @@
                                           <div class="flex flex-col gap-4 items-center px-3 lg:px-0 lg:items-start">
                                                 <div class="flex flex-row justify-center items-center gap-4">
                                                 <div class="rounded-full bg-gradient-to-r from-[#FCAE18] to-[#FEC557] h-3 w-10 md:w-16 lg:h-4"></div>
-                                                <h3 class="text-xs md:text-sm 2xl:text-base min-[1800px]:text-lg">
+                                                <h3 class="font-akira text-xs md:text-sm 2xl:text-base min-[1800px]:text-lg">
                                                       Hello, My Name Is
                                                 </h3>
                                                 </div>
-                                                <h2 class="flex flex-col text-center text-3xl min-[600px]:text-4xl md:text-5xl md:w-fit lg:w-[80%] lg:text-start lg:text-4xl xl:text-6xl min-[1800px]:text-7xl">
-                                                <span>Adriansyah </span>
-                                                <span class="text-transparent font-outline-1 transition-all duration-1000 ease-in-out hover:font-outline-0 hover:bg-gradient-to-r hover:from-[#FCAE18] hover:to-[#FEC557] hover:inline-block hover:bg-clip-text">Ravindra</span>
+                                                <h2 class="font-akira flex flex-col text-center text-3xl min-[600px]:text-4xl md:text-5xl md:w-fit lg:w-[80%] lg:text-start lg:text-4xl xl:text-6xl min-[1800px]:text-7xl">
+                                                      <span class="font-akira">Adriansyah </span>
+                                                      <span class="text-transparent font-outline-1 transition-all duration-1000 ease-in-out hover:font-outline-0 hover:bg-gradient-to-r hover:from-[#FCAE18] hover:to-[#FEC557] hover:inline-block hover:bg-clip-text">Ravindra</span>
                                                 </h2>
-                                                <p class="font-thin text-[10px] text-center w-full leading-5 min-[550px]:w-[75%] lg:text-start lg:w-[80%] lg:leading-loose xl:text-xs 2xl:leading-7 2xl:text-sm">
+                                                <p class="font-just-sans font-thin text-[10px] text-center w-full leading-5 min-[550px]:w-[75%] lg:text-start lg:w-[80%] lg:leading-loose xl:text-xs 2xl:leading-7 2xl:text-sm">
                                                 I'm Adriansyah Ravindra Abubakar, studying Information Systems at Widyatama University. With 4+ years in multimedia, I excel in UI/UX, software engineering, motion graphics, and video editing. Committed to advancing tech and design.
                                                 </p>
                                           </div>
                                           <div class='flex flex-row items-center justify-center gap-x-2 md:gap-x-4 lg:justify-start xl:gap-x-8'>
                                                 <a href="https://wa.link/ou0sd3">
-                                                      <button class="border-[1px] border-primary z-10 relative font-light bg-transparent group text-[10px] py-3 px-2 md:text-xs md:py-3 md:px-4 lg:py-4 lg:px-6 xl:px-8 xl:text-sm 2xl:px-12 2xl:text-base" style="font-family: 'Roboto Mono', monospace;">
+                                                      <button class="border-[1px] border-primary z-10 relative font-light bg-transparent group text-[10px] py-3 px-2 md:text-xs md:py-3 md:px-4 lg:py-4 lg:px-6 xl:px-8 xl:text-sm 2xl:px-12 2xl:text-base">
                                                       <span class="absolute top-0 left-0 w-0 h-full -z-10 duration-1000 ease-in-out bg-primary transition-all group-hover:w-full"></span>
-                                                      <span class="z-30 ease-in-out duration-1000 group-hover:text-black">_contact_me</span>
+                                                      <span class="font-roboto-mono z-30 ease-in-out duration-1000 group-hover:text-black">_contact_me</span>
                                                       </button>
                                                 </a> 
                                                 <a href="https://drive.google.com/file/d/1Bs4aO5AaiHDus3_5l5Yg65WciWo7DLDP/view">
-                                                      <button class="font-light py-3 px-2 text-[10px] md:py-3 md:px-4 md:text-xs lg:py-4 lg:px-6 xl:text-sm 2xl:text-base" style="font-family: 'Roboto Mono', monospace;">
+                                                      <button class="font-light py-3 px-2 text-[10px] md:py-3 md:px-4 md:text-xs lg:py-4 lg:px-6 xl:text-sm 2xl:text-base">
                                                       <div class="flex flex-row items-center gap-2 group md:gap-3 xl:gap-5">
                                                                   <svg class='w-6 h-6 transition-all ease-in-out duration-500 group-hover:-rotate-90' viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                                         <path d="M5.78281 9.98806C5.66389 9.86395 5.58314 9.70827 5.55018 9.53957C5.51721 9.37087 5.53342 9.19625 5.59687 9.0365C5.66212 8.8752 5.77398 8.73702 5.91815 8.63961C6.06232 8.54219 6.23226 8.48998 6.40625 8.48962H10.125V1.70837C10.125 1.47631 10.2172 1.25375 10.3813 1.08966C10.5454 0.925561 10.7679 0.833374 11 0.833374C11.2321 0.833374 11.4546 0.925561 11.6187 1.08966C11.7828 1.25375 11.875 1.47631 11.875 1.70837V8.48962H15.5938C15.7677 8.48998 15.9377 8.54219 16.0819 8.63961C16.226 8.73702 16.3379 8.8752 16.4031 9.0365C16.4666 9.19625 16.4828 9.37087 16.4498 9.53957C16.4169 9.70827 16.3361 9.86395 16.2172 9.98806L11.6234 14.5818C11.4562 14.7435 11.2326 14.8339 11 14.8339C10.7674 14.8339 10.5438 14.7435 10.3766 14.5818L5.78281 9.98806ZM20.625 13.0834C20.3929 13.0834 20.1704 13.1756 20.0063 13.3397C19.8422 13.5037 19.75 13.7263 19.75 13.9584V20.0834H2.25V13.9584C2.25 13.7263 2.15781 13.5037 1.99372 13.3397C1.82962 13.1756 1.60706 13.0834 1.375 13.0834C1.14294 13.0834 0.920376 13.1756 0.756282 13.3397C0.592187 13.5037 0.5 13.7263 0.5 13.9584V20.0834C0.5 20.5475 0.684374 20.9926 1.01256 21.3208C1.34075 21.649 1.78587 21.8334 2.25 21.8334H19.75C20.2141 21.8334 20.6592 21.649 20.9874 21.3208C21.3156 20.9926 21.5 20.5475 21.5 20.0834V13.9584C21.5 13.7263 21.4078 13.5037 21.2437 13.3397C21.0796 13.1756 20.8571 13.0834 20.625 13.0834Z" fill="#FCAE18"/>
                                                                   </svg>
-                                                                  <h6 class="underline transition-all duration-700 ease-in-out group-hover:text-primary group-hover:no-underline md:text-xs xl:text-sm">download_my_cv</h6>
+                                                                  <h6 class="font-roboto-mono underline transition-all duration-700 ease-in-out group-hover:text-primary group-hover:no-underline md:text-xs xl:text-sm">download_my_cv</h6>
                                                       </div>
                                                       </button>
                                                 </a>                                                                                     
@@ -258,11 +261,11 @@
                   </div>
 
                   <!-- Portfolio -->
-                  <div class='w-full bg-background relative z-10 px-5 pt-10 pb-12 md:px-16 md:pt-24 md:pb-14 lg:px-28 lg:pt-32 lg:pb-20 xl:pb-40 xl:px-48 xl:pt-44' style={justSans.style}>
+                  <div class='w-full font-just-sans bg-background relative z-10 px-5 pt-10 pb-12 md:px-16 md:pt-24 md:pb-14 lg:px-28 lg:pt-32 lg:pb-20 xl:pb-40 xl:px-48 xl:pt-44'>
                         <div class="flex flex-col items-center justify-center gap-5 w-full z-10 md:justify-between md:flex-row">
                               <div class="flex flex-col w-full gap-4 md:w-[50%] md:gap-6">
                               <h6 class="font-normal text-primary text-sm text-center md:text-start md:text-base xl:text-lg 2xl:text-2xl">
-                                    This Is All My Life's Work
+                                    This Is a few of My Life's Work
                               </h6>
                               <h2 class="font-bold leading-none text-2xl text-center md:text-start md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
                                     Please See, All My Amazing Portfolio Showcase
@@ -272,10 +275,10 @@
                               Explore my impressive portfolio showcase to witness a collection of my finest work. Please take a look and be inspired. I Hope You Can Entrust too, to hired me in your company.
                               </p>
                         </div>  
-                        <div class='grid grid-cols-12 mt-6 z-10 w-full gap-2 md:gap-4 md:mt-8 xl:mt-10'>
+                        <div class='font-just-sans grid grid-cols-12 mt-6 z-10 w-full gap-2 md:gap-4 md:mt-8 xl:mt-10'>
                               <!-- Card Portfolio 1 -->
                               <div class="col-span-12 w-full h-full z-10 sm:col-span-6 lg:col-span-4">
-                                    <div class='flex flex-col gap-5 h-full bg-secondary rounded-lg pt-3 px-3 pb-6 xl:pt-5 xl:pb-7 2xl:pt-6 min-[1600px]:pb-8 min-[1920px]:pb-9' style={justSans.style}>
+                                    <div class='flex flex-col gap-5 h-full bg-secondary rounded-lg pt-3 px-3 pb-6 xl:pt-5 xl:pb-7 2xl:pt-6 min-[1600px]:pb-8 min-[1920px]:pb-9'>
                                           <div class='relative rounded-md w-full h-[180px] overflow-hidden min-[412px]:h-[190px] lg:h-[160px] min-[1366px]:h-[170px] 2xl:h-[180px] min-[1920px]:h-[240px]'>
                                                 <div class='bg-gray-300 w-full h-full'></div>
                                           </div>
@@ -287,7 +290,7 @@
                               </div>
                               <!-- Card Portfolio 2 -->
                               <div class="col-span-12 w-full h-full z-10 sm:col-span-6 lg:col-span-4">
-                                    <div class='flex flex-col gap-5 h-full bg-secondary rounded-lg pt-3 px-3 pb-6 xl:pt-5 xl:pb-7 2xl:pt-6 min-[1600px]:pb-8 min-[1920px]:pb-9' style={justSans.style}>
+                                    <div class='flex flex-col gap-5 h-full bg-secondary rounded-lg pt-3 px-3 pb-6 xl:pt-5 xl:pb-7 2xl:pt-6 min-[1600px]:pb-8 min-[1920px]:pb-9'>
                                           <div class='relative rounded-md w-full h-[180px] overflow-hidden min-[412px]:h-[190px] lg:h-[160px] min-[1366px]:h-[170px] 2xl:h-[180px] min-[1920px]:h-[240px]'>
                                                 <div class='bg-gray-300 w-full h-full'></div>
                                           </div>
@@ -299,7 +302,7 @@
                               </div>
                               <!-- Card Portfolio 3 -->
                               <div class="col-span-12 w-full h-full z-10 sm:col-span-6 lg:col-span-4">
-                                    <div class='flex flex-col gap-5 h-full bg-secondary rounded-lg pt-3 px-3 pb-6 xl:pt-5 xl:pb-7 2xl:pt-6 min-[1600px]:pb-8 min-[1920px]:pb-9' style={justSans.style}>
+                                    <div class='flex flex-col gap-5 h-full bg-secondary rounded-lg pt-3 px-3 pb-6 xl:pt-5 xl:pb-7 2xl:pt-6 min-[1600px]:pb-8 min-[1920px]:pb-9'>
                                           <div class='relative rounded-md w-full h-[180px] overflow-hidden min-[412px]:h-[190px] lg:h-[160px] min-[1366px]:h-[170px] 2xl:h-[180px] min-[1920px]:h-[240px]'>
                                                 <div class='bg-gray-300 w-full h-full'></div>
                                           </div>
@@ -313,11 +316,11 @@
                   </div>
 
                   <!-- Footer -->
-                  <div class="bg-footer w-full px-6 py-12 md:px-12 md:py-20 lg:px-20 xl:py-28 xl:px-28 2xl:px-32">
+                  <div class="bg-footer font-just-sans w-full px-6 py-12 md:px-12 md:py-20 lg:px-20 xl:py-28 xl:px-28 2xl:px-32">
                         <div class="grid grid-cols-12 gap-0 lg:gap-16 xl:gap-28 min-[1440px]:gap-32">
                               <div class="col-span-12 lg:col-span-6 min-[1800px]:col-span-8">
                                     <div class="flex flex-col gap-6 md:gap-10 lg:gap-14 xl:gap-16">
-                                    <h2 class="text-2xl text-center md:text-6xl lg:text-5xl lg:text-start lg:leading-tight xl:text-6xl xl:leading-snug 2xl:leading-tight 2xl:text-7xl">
+                                    <h2 class="text-2xl font-akira text-center md:text-6xl lg:text-5xl lg:text-start lg:leading-tight xl:text-6xl xl:leading-snug 2xl:leading-tight 2xl:text-7xl">
                                           LET'S WORK TOGETHER
                                     </h2>
                                     <div class="relative mx-auto w-[90%] md:w-[85%] lg:w-full">

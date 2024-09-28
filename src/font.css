@@ -1,0 +1,21 @@
+/* local font */
+
+@font-face {
+      font-family: 'Roboto Mono';
+      src: url('./fonts/RobotoMono-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+      font-family: 'Akira Expanded';
+      src: url('./fonts/Akira Expanded Demo.otf') format('opentype');
+}
+
+@font-face {
+      font-family: 'Just Sans';
+      src: url('./fonts/JUST Sans Variable.ttf') format('truetype');
+}
+
+@font-face {
+      font-family: 'Oswald';
+      src: url('./fonts/Oswald-VariableFont_wght.ttf') format('truetype');
+}

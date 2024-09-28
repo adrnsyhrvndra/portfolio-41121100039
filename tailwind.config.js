@@ -63,7 +63,13 @@ module.exports = {
 			flex: {
 				'1': '1 1 0%',
 				'2': '2 2 0%',
-			}
+			},
+			fontFamily: {
+				'roboto-mono': ['Roboto Mono', 'monospace'],
+				'akira': ['Akira Expanded', 'sans-serif'],
+				'just-sans': ['Just Sans', 'sans-serif'],
+				'oswald': ['Oswald', 'sans-serif'],
+			},
 		},
 	},
 	plugins: [],
