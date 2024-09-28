@@ -1,89 +1,394 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Portfolio Sederhana - Adriansyah Ravindra Abubakar 41121100039</title>
-      <link href="src/output.css" rel="stylesheet">
-</head>
-<body>
-      <div class='w-full bg-black bg-opacity-50 h-16 md:h-24' style={robotoMono.style}>
-            <div class='grid-cols-12 hidden h-full w-full px-0 justify-between md:px-16 lg:grid lg:px-0 lg:justify-start'>
-                  <div class='col-span-1'>
-                        <button class='bg-[#1B1A1A] h-full flex flex-row items-center justify-center order-3 w-full md:order-1'>
-                              <svg width="32" height="22" viewBox="0 0 32 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M0 1.2C0 0.88174 0.126428 0.576515 0.351472 0.351472C0.576515 0.126428 0.88174 0 1.2 0H26C26.3183 0 26.6235 0.126428 26.8485 0.351472C27.0736 0.576515 27.2 0.88174 27.2 1.2C27.2 1.51826 27.0736 1.82348 26.8485 2.04853C26.6235 2.27357 26.3183 2.4 26 2.4H1.2C0.88174 2.4 0.576515 2.27357 0.351472 2.04853C0.126428 1.82348 0 1.51826 0 1.2ZM0 20.4C0 20.0817 0.126428 19.7765 0.351472 19.5515C0.576515 19.3264 0.88174 19.2 1.2 19.2H21.2C21.5183 19.2 21.8235 19.3264 22.0485 19.5515C22.2736 19.7765 22.4 20.0817 22.4 20.4C22.4 20.7183 22.2736 21.0235 22.0485 21.2485C21.8235 21.4736 21.5183 21.6 21.2 21.6H1.2C0.88174 21.6 0.576515 21.4736 0.351472 21.2485C0.126428 21.0235 0 20.7183 0 20.4ZM1.2 9.6C0.88174 9.6 0.576515 9.72643 0.351472 9.95147C0.126428 10.1765 0 10.4817 0 10.8C0 11.1183 0.126428 11.4235 0.351472 11.6485C0.576515 11.8736 0.88174 12 1.2 12H30.8C31.1183 12 31.4235 11.8736 31.6485 11.6485C31.8736 11.4235 32 11.1183 32 10.8C32 10.4817 31.8736 10.1765 31.6485 9.95147C31.4235 9.72643 31.1183 9.6 30.8 9.6H1.2Z" fill="#FCAE18"/>
-                              </svg>
-                        </button>
-                  </div>
-                  <div class='col-span-11'>
-                        <div class='grid-cols-12 text-white bg-[#1B1A1A] h-full items-center border-b-[1.7px] border-white border-opacity-10 hidden md:order-3 lg:grid lg:gap-6 lg:pr-5'>
-                              <div class='h-full col-span-9 2xl:col-span-10'>
-                                    <div class='grid grid-cols-12 h-full'>
-                                          <div class='col-span-2'>
-                                                <a href='/'>
-                                                      <div class='h-full w-full py-5 flex items-center justify-center border-x-[1px] border-border-navbar text-sm lg:px-5 xl:px-8'>
-                                                            <img 
-                                                                  src='./src/Logo-SB-Navbar.png' 
-                                                                  class='w-[80px] h-[50px]' 
-                                                                  alt='sarjana-brewok-logo'
-                                                            />
-                                                      </div>
-                                                </a>
-                                          </div>
-                                          <div class='col-span-2'>
-                                                <a href='/'>
-                                                      <button class="h-full w-full py-5 flex flex-row items-center justify-center border-x-[1px] border-border-navbar text-sm group relative z-0 lg:px-8 min-[1100px]:px-10 xl:px-14">
-                                                            <span class="z-10 absolute top-0 left-0 w-0 h-full bg-primary duration-700 ease-in transition-all group-hover:w-full"></span>
-                                                            <span class="z-20 duration-300 ease-in group-hover:text-black">_home</span>
-                                                      </button>
-                                                </a>
-                                          </div>
-                                          <div class='col-span-2'>
-                                                <a href='/'>
-                                                      <button class="h-full w-full py-5 flex flex-row items-center justify-center border-x-[1px] border-border-navbar text-sm group relative z-0 lg:px-8 min-[1100px]:px-10 xl:px-14">
-                                                            <span class="z-10 absolute top-0 left-0 w-0 h-full bg-primary duration-700 ease-in transition-all group-hover:w-full"></span>
-                                                            <span class="z-20 duration-300 ease-in group-hover:text-black">_about</span>
-                                                      </button>
-                                                </a>
-                                          </div>
-                                          <div class='col-span-2'>
-                                                <a href='/'>
-                                                      <button class="h-full w-full py-5 flex flex-row items-center justify-center border-x-[1px] border-border-navbar text-sm group relative z-0 lg:px-8 min-[1100px]:px-10 xl:px-14">
-                                                            <span class="z-10 absolute top-0 left-0 w-0 h-full bg-primary duration-700 ease-in transition-all group-hover:w-full"></span>
-                                                            <span class="z-20 duration-300 ease-in group-hover:text-black">_work</span>
-                                                      </button>
-                                                </a>
-                                          </div>
-                                          <div class='col-span-2'>
-                                                <a href='/'>
-                                                      <button class="h-full w-full py-5 flex flex-row items-center justify-center border-x-[1px] border-border-navbar text-sm group relative z-0 lg:px-8 min-[1100px]:px-10 xl:px-14">
-                                                            <span class="z-10 absolute top-0 left-0 w-0 h-full bg-primary duration-700 ease-in transition-all group-hover:w-full"></span>
-                                                            <span class="z-20 duration-300 ease-in group-hover:text-black">_services</span>
-                                                      </button>
-                                                </a>
-                                          </div>
-                                          <div class='col-span-2'>
-                                                <a href='/'>
-                                                      <button class="h-full w-full py-5 flex flex-row items-center justify-center border-x-[1px] border-border-navbar text-sm group relative z-0 lg:px-8 min-[1100px]:px-10 xl:px-14">
-                                                            <span class="z-10 absolute top-0 left-0 w-0 h-full bg-primary duration-700 ease-in transition-all group-hover:w-full"></span>
-                                                            <span class="z-20 duration-300 ease-in group-hover:text-black">_blog</span>
-                                                      </button>
-                                                </a>
-                                          </div>
-                                    </div>
+      <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Portfolio Sederhana - Adriansyah Ravindra Abubakar 41121100039</title>
+            <link href="src/output.css" rel="stylesheet">
+      </head>
+      <script>
+            // Fungsi untuk membatasi panjang string judul
+            const handleStringLimitPortfolioJudul = (string, maxLength) => {
+                  if (string?.length > maxLength) {
+                        return string.substring(0, maxLength) + '...';
+                  } else {
+                        return string;
+                  }
+            }
+
+            // Fungsi untuk membatasi panjang string deskripsi
+            const handleStringLimitPortfolioDescription = (string, maxLength) => {
+                  if (string?.length > maxLength) {
+                        return string.substring(0, maxLength) + '...';
+                  } else {
+                        return string;
+                  }
+            }
+
+            // Data portofolio statis
+            const DataItemPortfolio1 = {
+                  judul_portfolio: "My Amazing Portfolio Project That Showcases My Skills",
+                  deskripsi_portfolio: "This is a detailed description of my amazing portfolio project. It includes various works I have done over the years, demonstrating my skills and creativity in various fields."
+            };
+
+            const DataItemPortfolio2 = {
+                  judul_portfolio: "My Second Amazing Portfolio Project That Showcases My Skills",
+                  deskripsi_portfolio: "This is a detailed description of my second amazing portfolio project. It includes various works I have done over the years, demonstrating my skills and creativity in various fields."
+            };
+
+            const DataItemPortfolio3 = {
+                  judul_portfolio: "My Third Amazing Portfolio Project That Showcases My Skills",
+                  deskripsi_portfolio: "This is a detailed description of my third amazing portfolio project. It includes various works I have done over the years, demonstrating my skills and creativity in various fields."
+            };
+
+            // Menghapus tag HTML dari deskripsi (fungsionalitas sederhana)
+            const removeScriptHTMLTagsPortfolioDescription1 = DataItemPortfolio1.deskripsi_portfolio.replace(/<[^>]*>/g, '');
+            const removeScriptHTMLTagsPortfolioDescription2 = DataItemPortfolio2.deskripsi_portfolio.replace(/<[^>]*>/g, '');
+            const removeScriptHTMLTagsPortfolioDescription3 = DataItemPortfolio3.deskripsi_portfolio.replace(/<[^>]*>/g, '');
+
+            // Untuk menampilkan data saat halaman dimuat
+            document.addEventListener('DOMContentLoaded', () => {
+                  const titleElement1 = document.getElementById('portfolio-title-1');
+                  const descriptionElement1 = document.getElementById('portfolio-description-1');
+                  const titleElement2 = document.getElementById('portfolio-title-2');
+                  const descriptionElement2 = document.getElementById('portfolio-description-2');
+                  const titleElement3 = document.getElementById('portfolio-title-3');
+                  const descriptionElement3 = document.getElementById('portfolio-description-3');
+
+                  titleElement1.textContent = handleStringLimitPortfolioJudul(DataItemPortfolio1.judul_portfolio, 65) || 'Untitled Portfolio';
+                  descriptionElement1.textContent = handleStringLimitPortfolioDescription(removeScriptHTMLTagsPortfolioDescription1, 120) || 'No description available.';
+                  titleElement2.textContent = handleStringLimitPortfolioJudul(DataItemPortfolio2.judul_portfolio, 65) || 'Untitled Portfolio';
+                  descriptionElement2.textContent = handleStringLimitPortfolioDescription(removeScriptHTMLTagsPortfolioDescription2, 120) || 'No description available.';
+                  titleElement3.textContent = handleStringLimitPortfolioJudul(DataItemPortfolio3.judul_portfolio, 65) || 'Untitled Portfolio';
+                  descriptionElement3.textContent = handleStringLimitPortfolioDescription(removeScriptHTMLTagsPortfolioDescription3, 120) || 'No description available.';
+            });
+      </script>
+      <body>
+            <div class="bg-background h-full w-full text-white overflow-hidden relative">
+                  <div class='w-full bg-black bg-opacity-50 h-16 md:h-24' style={robotoMono.style}>
+                        <div class='grid-cols-12 hidden h-full w-full px-0 justify-between md:px-16 lg:grid lg:px-0 lg:justify-start'>
+                              <div class='col-span-1'>
+                                    <button class='bg-[#1B1A1A] h-full flex flex-row items-center justify-center order-3 w-full md:order-1'>
+                                          <svg width="32" height="22" viewBox="0 0 32 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 1.2C0 0.88174 0.126428 0.576515 0.351472 0.351472C0.576515 0.126428 0.88174 0 1.2 0H26C26.3183 0 26.6235 0.126428 26.8485 0.351472C27.0736 0.576515 27.2 0.88174 27.2 1.2C27.2 1.51826 27.0736 1.82348 26.8485 2.04853C26.6235 2.27357 26.3183 2.4 26 2.4H1.2C0.88174 2.4 0.576515 2.27357 0.351472 2.04853C0.126428 1.82348 0 1.51826 0 1.2ZM0 20.4C0 20.0817 0.126428 19.7765 0.351472 19.5515C0.576515 19.3264 0.88174 19.2 1.2 19.2H21.2C21.5183 19.2 21.8235 19.3264 22.0485 19.5515C22.2736 19.7765 22.4 20.0817 22.4 20.4C22.4 20.7183 22.2736 21.0235 22.0485 21.2485C21.8235 21.4736 21.5183 21.6 21.2 21.6H1.2C0.88174 21.6 0.576515 21.4736 0.351472 21.2485C0.126428 21.0235 0 20.7183 0 20.4ZM1.2 9.6C0.88174 9.6 0.576515 9.72643 0.351472 9.95147C0.126428 10.1765 0 10.4817 0 10.8C0 11.1183 0.126428 11.4235 0.351472 11.6485C0.576515 11.8736 0.88174 12 1.2 12H30.8C31.1183 12 31.4235 11.8736 31.6485 11.6485C31.8736 11.4235 32 11.1183 32 10.8C32 10.4817 31.8736 10.1765 31.6485 9.95147C31.4235 9.72643 31.1183 9.6 30.8 9.6H1.2Z" fill="#FCAE18"/>
+                                          </svg>
+                                    </button>
                               </div>
-                              <div class='h-full col-span-3 2xl:col-span-2'>
-                                    <div class='flex flex-row w-full h-full items-center justify-center'>
-                                          <button class='py-4 flex flex-row items-center justify-center border-[1px] border-white border-opacity-15 text-base relative group z-0 lg:px-14 xl:px-16'>
-                                                <div class='z-10 absolute bottom-0 left-0 w-4 h-4 bg-primary duration-1000 ease-in-out transition-all group-hover:w-full group-hover:h-full'></div>
-                                                <span class='z-20 duration-300 ease-in group-hover:text-black'>_login</span>
-                                          </button>
+                              <div class='col-span-11'>
+                                    <div class='grid-cols-12 text-white bg-transparent h-full items-center border-b-[1.7px] border-white border-opacity-10 hidden md:order-3 lg:grid lg:gap-6 lg:pr-5'>
+                                          <div class='h-full col-span-9 2xl:col-span-10'>
+                                                <div class='grid grid-cols-12 h-full'>
+                                                      <div class='col-span-2'>
+                                                            <a href='/'>
+                                                                  <div class='h-full w-full py-5 flex items-center justify-center border-x-[1px] border-border-navbar text-sm lg:px-5 xl:px-8'>
+                                                                        <img 
+                                                                              src='./src/Logo-SB-Navbar.png' 
+                                                                              class='w-[80px] h-[50px]' 
+                                                                              alt='sarjana-brewok-logo'
+                                                                        />
+                                                                  </div>
+                                                            </a>
+                                                      </div>
+                                                      <div class='col-span-2'>
+                                                            <a href='/'>
+                                                                  <button class="h-full w-full py-5 flex flex-row items-center justify-center border-x-[1px] border-border-navbar text-sm group relative z-0 lg:px-8 min-[1100px]:px-10 xl:px-14">
+                                                                        <span class="z-10 absolute top-0 left-0 w-0 h-full bg-primary duration-700 ease-in transition-all group-hover:w-full"></span>
+                                                                        <span class="z-20 duration-300 ease-in group-hover:text-black">_home</span>
+                                                                  </button>
+                                                            </a>
+                                                      </div>
+                                                      <div class='col-span-2'>
+                                                            <a href='/'>
+                                                                  <button class="h-full w-full py-5 flex flex-row items-center justify-center border-x-[1px] border-border-navbar text-sm group relative z-0 lg:px-8 min-[1100px]:px-10 xl:px-14">
+                                                                        <span class="z-10 absolute top-0 left-0 w-0 h-full bg-primary duration-700 ease-in transition-all group-hover:w-full"></span>
+                                                                        <span class="z-20 duration-300 ease-in group-hover:text-black">_about</span>
+                                                                  </button>
+                                                            </a>
+                                                      </div>
+                                                      <div class='col-span-2'>
+                                                            <a href='/'>
+                                                                  <button class="h-full w-full py-5 flex flex-row items-center justify-center border-x-[1px] border-border-navbar text-sm group relative z-0 lg:px-8 min-[1100px]:px-10 xl:px-14">
+                                                                        <span class="z-10 absolute top-0 left-0 w-0 h-full bg-primary duration-700 ease-in transition-all group-hover:w-full"></span>
+                                                                        <span class="z-20 duration-300 ease-in group-hover:text-black">_work</span>
+                                                                  </button>
+                                                            </a>
+                                                      </div>
+                                                      <div class='col-span-2'>
+                                                            <a href='/'>
+                                                                  <button class="h-full w-full py-5 flex flex-row items-center justify-center border-x-[1px] border-border-navbar text-sm group relative z-0 lg:px-8 min-[1100px]:px-10 xl:px-14">
+                                                                        <span class="z-10 absolute top-0 left-0 w-0 h-full bg-primary duration-700 ease-in transition-all group-hover:w-full"></span>
+                                                                        <span class="z-20 duration-300 ease-in group-hover:text-black">_services</span>
+                                                                  </button>
+                                                            </a>
+                                                      </div>
+                                                      <div class='col-span-2'>
+                                                            <a href='/'>
+                                                                  <button class="h-full w-full py-5 flex flex-row items-center justify-center border-x-[1px] border-border-navbar text-sm group relative z-0 lg:px-8 min-[1100px]:px-10 xl:px-14">
+                                                                        <span class="z-10 absolute top-0 left-0 w-0 h-full bg-primary duration-700 ease-in transition-all group-hover:w-full"></span>
+                                                                        <span class="z-20 duration-300 ease-in group-hover:text-black">_blog</span>
+                                                                  </button>
+                                                            </a>
+                                                      </div>
+                                                </div>
+                                          </div>
+                                          <div class='h-full col-span-3 2xl:col-span-2'>
+                                                <div class='flex flex-row w-full h-full items-center justify-center'>
+                                                      <button class='py-4 flex flex-row items-center justify-center border-[1px] border-white border-opacity-15 text-base relative group z-0 lg:px-14 xl:px-16'>
+                                                            <div class='z-10 absolute bottom-0 left-0 w-4 h-4 bg-primary duration-1000 ease-in-out transition-all group-hover:w-full group-hover:h-full'></div>
+                                                            <span class='z-20 duration-300 ease-in group-hover:text-black'>_login</span>
+                                                      </button>
+                                                </div>
+                                          </div>
                                     </div>
                               </div>
                         </div>
                   </div>
+                  <div class='grid grid-cols-12 z-0 bg-[#101113] relative overflow-hidden h-[600px] md:h-[690px] lg:h-[480px] xl:h-[590px] 2xl:h-[800px]'>
+                        <div class="absolute left-0 rotate-6 w-full bg-[#212226] flex flex-row scale-105 items-center font-bold h-[30px] bottom-10 md:h-[40px] md:text-lg md:bottom-12 lg:text-2xl lg:h-[60px] xl:h-[80px] xl:text-3xl xl:bottom-7 2xl:bottom-16">
+                              <marquee direction="left" behavior="scroll" loop="">
+                                    UI/UX DESIGNER | SOFTWARE ENGINEER | MOTION GRAPHIC DESIGNER | GRAPHIC DESIGNER | VIDEO EDITOR | SOFTWARE ENGINEER | VIDEO EDITOR | 
+                                    UI/UX DESIGNER | SOFTWARE ENGINEER | MOTION GRAPHIC DESIGNER | GRAPHIC DESIGNER | VIDEO EDITOR | SOFTWARE ENGINEER | VIDEO EDITOR | 
+                                    UI/UX DESIGNER | SOFTWARE ENGINEER | MOTION GRAPHIC DESIGNER | GRAPHIC DESIGNER | VIDEO EDITOR | SOFTWARE ENGINEER | VIDEO EDITOR | 
+                                    UI/UX DESIGNER | SOFTWARE ENGINEER | MOTION GRAPHIC DESIGNER | GRAPHIC DESIGNER | VIDEO EDITOR | SOFTWARE ENGINEER | VIDEO EDITOR
+                              </marquee>
+                        </div>
+                        <div class="absolute left-0 -rotate-3 w-full bg-gradient-to-r from-[#FCAE18] to-[#FEC557] flex flex-row items-center scale-105 font-bold text-[#1D1C1C] h-[30px] bottom-12 md:h-[40px] md:text-lg md:bottom-8 lg:text-2xl lg:h-[60px] xl:h-[80px] xl:text-3xl xl:bottom-1 2xl:bottom-10">
+                              <marquee direction="right" behavior="scroll" loop="">
+                              UI/UX DESIGNER | SOFTWARE ENGINEER | MOTION GRAPHIC DESIGNER | GRAPHIC DESIGNER | VIDEO EDITOR | SOFTWARE ENGINEER | VIDEO EDITOR | 
+                              UI/UX DESIGNER | SOFTWARE ENGINEER | MOTION GRAPHIC DESIGNER | GRAPHIC DESIGNER | VIDEO EDITOR | SOFTWARE ENGINEER | VIDEO EDITOR | 
+                              UI/UX DESIGNER | SOFTWARE ENGINEER | MOTION GRAPHIC DESIGNER | GRAPHIC DESIGNER | VIDEO EDITOR | SOFTWARE ENGINEER | VIDEO EDITOR | 
+                              UI/UX DESIGNER | SOFTWARE ENGINEER | MOTION GRAPHIC DESIGNER | GRAPHIC DESIGNER | VIDEO EDITOR | SOFTWARE ENGINEER | VIDEO EDITOR
+                              </marquee>
+                        </div>
+                        <div class='col-span-1'>
+                              <div class="h-full w-full bg-black bg-opacity-25 hidden flex-row items-center justify-center border-r-[1px] border-[#3A384F] border-opacity-40 md:flex">
+                                    <div class="flex flex-col items-center md:gap-16 md:-mt-72 lg:gap-14 lg:-mt-36 2xl:gap-20 2xl:-mt-52">
+                                    <a href="https://www.instagram.com/adrnsyhrvndra/">
+                                          <svg class="w-5 h-5 cursor-pointer transition-all duration-700 ease-in-out hover:opacity-40" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M9.89972 6.92911C9.11212 6.92911 8.35679 7.24198 7.79988 7.79889C7.24297 8.3558 6.9301 9.11113 6.9301 9.89873C6.9301 10.6863 7.24297 11.4417 7.79988 11.9986C8.35679 12.5555 9.11212 12.8683 9.89972 12.8683C10.6873 12.8683 11.4426 12.5555 11.9996 11.9986C12.5565 11.4417 12.8693 10.6863 12.8693 9.89873C12.8693 9.11113 12.5565 8.3558 11.9996 7.79889C11.4426 7.24198 10.6873 6.92911 9.89972 6.92911ZM9.89972 4.94936C11.2124 4.94936 12.4713 5.47081 13.3994 6.399C14.3276 7.32718 14.8491 8.58607 14.8491 9.89873C14.8491 11.2114 14.3276 12.4703 13.3994 13.3985C12.4713 14.3266 11.2124 14.8481 9.89972 14.8481C8.58706 14.8481 7.32817 14.3266 6.39999 13.3985C5.4718 12.4703 4.95035 11.2114 4.95035 9.89873C4.95035 8.58607 5.4718 7.32718 6.39999 6.399C7.32817 5.47081 8.58706 4.94936 9.89972 4.94936ZM16.3339 4.70189C16.3339 5.03006 16.2035 5.34478 15.9715 5.57683C15.7394 5.80887 15.4247 5.93924 15.0965 5.93924C14.7684 5.93924 14.4537 5.80887 14.2216 5.57683C13.9896 5.34478 13.8592 5.03006 13.8592 4.70189C13.8592 4.37373 13.9896 4.05901 14.2216 3.82696C14.4537 3.59492 14.7684 3.46455 15.0965 3.46455C15.4247 3.46455 15.7394 3.59492 15.9715 3.82696C16.2035 4.05901 16.3339 4.37373 16.3339 4.70189ZM9.89972 1.97975C7.45077 1.97975 7.05086 1.98667 5.91152 2.03716C5.13546 2.07378 4.61479 2.17772 4.13173 2.3658C3.72748 2.51421 3.36202 2.7521 3.06267 3.06168C2.75284 3.36101 2.51463 3.72646 2.3658 4.13074C2.17772 4.61578 2.07378 5.13546 2.03815 5.91053C1.98667 7.00335 1.97975 7.38544 1.97975 9.89873C1.97975 12.3487 1.98667 12.7476 2.03716 13.8869C2.07378 14.662 2.17772 15.1837 2.36481 15.6657C2.53308 16.0963 2.73106 16.4061 3.0597 16.7348C3.39328 17.0674 3.70311 17.2663 4.12876 17.4307C4.61776 17.6197 5.13843 17.7247 5.91053 17.7603C7.00335 17.8118 7.38544 17.8177 9.89873 17.8177C12.3487 17.8177 12.7476 17.8108 13.8869 17.7603C14.661 17.7237 15.1817 17.6197 15.6657 17.4326C16.0696 17.2835 16.4349 17.0457 16.7348 16.7368C17.0684 16.4042 17.2673 16.0943 17.4317 15.6677C17.6197 15.1807 17.7247 14.66 17.7603 13.8859C17.8118 12.7941 17.8177 12.411 17.8177 9.89873C17.8177 7.44978 17.8108 7.04987 17.7603 5.91053C17.7237 5.13645 17.6187 4.6138 17.4317 4.13074C17.2824 3.72689 17.0447 3.36159 16.7358 3.06168C16.4366 2.75169 16.0711 2.51345 15.6667 2.36481C15.1817 2.17673 14.661 2.07279 13.8869 2.03716C12.7951 1.98568 12.413 1.97975 9.89873 1.97975M9.89873 0C12.5882 0 12.9238 0.00989867 13.98 0.0593923C15.0332 0.108886 15.7518 0.274195 16.3824 0.519683C17.0357 0.771111 17.5861 1.11163 18.1364 1.66101C18.6398 2.15584 19.0293 2.75441 19.2778 3.41506C19.5223 4.04561 19.6886 4.76426 19.7381 5.81847C19.7846 6.87367 19.7975 7.20924 19.7975 9.89873C19.7975 12.5882 19.7876 12.9238 19.7381 13.979C19.6886 15.0332 19.5223 15.7509 19.2778 16.3824C19.03 17.0434 18.6404 17.6421 18.1364 18.1364C17.6415 18.6396 17.0429 19.0291 16.3824 19.2778C15.7518 19.5223 15.0332 19.6886 13.98 19.7381C12.9238 19.7846 12.5882 19.7975 9.89873 19.7975C7.20924 19.7975 6.87367 19.7876 5.81748 19.7381C4.76426 19.6886 4.0466 19.5223 3.41506 19.2778C2.75415 19.0298 2.15547 18.6402 1.66101 18.1364C1.15759 17.6417 0.768102 17.0431 0.519683 16.3824C0.274195 15.7518 0.108886 15.0332 0.0593923 13.979C0.0118784 12.9238 0 12.5882 0 9.89873C0 7.20924 0.00989867 6.87367 0.0593923 5.81847C0.108886 4.76426 0.274195 4.0466 0.519683 3.41506C0.767385 2.754 1.15697 2.15527 1.66101 1.66101C2.15562 1.15739 2.75425 0.767873 3.41506 0.519683C4.04561 0.274195 4.76327 0.108886 5.81748 0.0593923C6.87466 0.0128683 7.21023 0 9.89972 0" fill="url(#paint0_linear_2_49)"/>
+                                                <defs>
+                                                      <linearGradient id="paint0_linear_2_49" x1="7.42404" y1="0" x2="12.3734" y2="0" gradientUnits="userSpaceOnUse">
+                                                      <stop stop-color="#FCAE18"/>
+                                                      <stop offset="1" stop-color="#FEC557"/>
+                                                      </linearGradient>
+                                                </defs>
+                                          </svg>                                          
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/adriansyah-ravindra-abubakar-2039aa199/">
+                                                <svg class="w-5 h-5 cursor-pointer transition-all duration-700 ease-in-out hover:opacity-40" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                      <path d="M4.42482 2.77819C4.42456 3.30325 4.21573 3.8067 3.84427 4.17779C3.47281 4.54888 2.96915 4.75721 2.44409 4.75695C1.91903 4.75668 1.41557 4.54785 1.04449 4.17639C0.673397 3.80493 0.46507 3.30127 0.465332 2.77621C0.465595 2.25115 0.674426 1.7477 1.04589 1.37661C1.41735 1.00552 1.92101 0.797193 2.44607 0.797455C2.97113 0.797718 3.47458 1.00655 3.84567 1.37801C4.21676 1.74947 4.42509 2.25313 4.42482 2.77819ZM4.48421 6.22295H0.524725V18.6161H4.48421V6.22295ZM10.7402 6.22295H6.80052V18.6161H10.7006V12.1127C10.7006 8.48975 15.4223 8.1532 15.4223 12.1127V18.6161H19.3323V10.7665C19.3323 4.65895 12.3438 4.88662 10.7006 7.88593L10.7402 6.22295Z" fill="url(#paint0_linear_2_50)" />
+                                                      <defs>
+                                                            <linearGradient id="paint0_linear_2_50" x1="7.54045" y1="0.797455" x2="12.2572" y2="0.797455" gradientUnits="userSpaceOnUse">
+                                                                  <stop stop-color="#FCAE18" />
+                                                                  <stop offset="1" stop-color="#FEC557" />
+                                                            </linearGradient>
+                                                      </defs>
+                                                </svg>                                    
+                                    </a>
+                                    <a href="https://www.facebook.com/adrimedia.donnyvidi/">
+                                                <svg class='w-5 h-5 cursor-pointer transition-all duration-700 ease-in-out hover:opacity-40' viewBox="0 0 12 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                      <path d="M7.63077 11.9997H10.1054L11.0953 8.04019H7.63077V6.06045C7.63077 5.04088 7.63077 4.0807 9.61051 4.0807H11.0953V0.754732C10.7726 0.712168 9.55409 0.61615 8.26726 0.61615C5.57975 0.61615 3.67128 2.25637 3.67128 5.26855V8.04019H0.70166V11.9997H3.67128V20.4136H7.63077V11.9997Z" fill="url(#paint0_linear_2_51)"/>
+                                                      <defs>
+                                                            <linearGradient id="paint0_linear_2_51" x1="4.59928" y1="0.61615" x2="7.1977" y2="0.61615" gradientUnits="userSpaceOnUse">
+                                                                  <stop stop-color="#FCAE18"/>
+                                                                  <stop offset="1" stop-color="#FEC557"/>
+                                                            </linearGradient>
+                                                      </defs>
+                                                </svg>
+                                    </a>
+                                    </div>
+                              </div>                          
+                        </div>  
+                        <div class='col-span-12 h-full w-full overflow-hidden px-5 relative md:pl-20 md:pr-8 lg:col-span-11'>
+                              <img alt="element-hero-graphic-01" 
+                                    class="absolute opacity-80 z-0 top-0 -right-14 md:-right-8 lg:-top-72 lg:-right-36 xl:-top-64 xl:-right-48" 
+                                    width="800" 
+                                    src="./src//element-hero-graphic-01.png"
+                              />
+                              <img 
+                                    alt="elementherographic02" 
+                                    class="-z-30 absolute -bottom-0 md:-bottom-56 md:-left-6 lg:-bottom-80 lg:-left-96 xl:-bottom-80 xl:-left-60" 
+                                    width="1300" 
+                                    src="./src/element-hero-graphic-02.png"
+                              />
+                              <div class='w-auto flex overflow-hidden h-full flex-col lg:flex-row'>
+                                    <div class="flex flex-row justify-center items-end z-50 order-2 lg:order-1">
+                                          <img alt="image-adri-depan" 
+                                          class="hidden lg:flex lg:w-[420px] lg:h-[420px] xl:w-[530px] xl:h-[530px] 2xl:w-[660px] 2xl:h-[660px]" 
+                                          src="./src/Adri-Tampak-Depan.png"
+                                          />
+                                    </div>     
+                                    <div class='flex flex-col justify-center z-50 w-full order-1 mt-14 gap-6 md:mt-12 md:items-center md:gap-4 lg:order-2 lg:items-start lg:-mt-16 lg:w-[55%] xl:gap-7 2xl:gap-10'>
+                                          <div class="flex flex-col gap-4 items-center px-3 lg:px-0 lg:items-start">
+                                                <div class="flex flex-row justify-center items-center gap-4">
+                                                <div class="rounded-full bg-gradient-to-r from-[#FCAE18] to-[#FEC557] h-3 w-10 md:w-16 lg:h-4"></div>
+                                                <h3 class="text-xs md:text-sm 2xl:text-base min-[1800px]:text-lg">
+                                                      Hello, My Name Is
+                                                </h3>
+                                                </div>
+                                                <h2 class="flex flex-col text-center text-3xl min-[600px]:text-4xl md:text-5xl md:w-fit lg:w-[80%] lg:text-start lg:text-4xl xl:text-6xl min-[1800px]:text-7xl">
+                                                <span>Adriansyah </span>
+                                                <span class="text-transparent font-outline-1 transition-all duration-1000 ease-in-out hover:font-outline-0 hover:bg-gradient-to-r hover:from-[#FCAE18] hover:to-[#FEC557] hover:inline-block hover:bg-clip-text">Ravindra</span>
+                                                </h2>
+                                                <p class="font-thin text-[10px] text-center w-full leading-5 min-[550px]:w-[75%] lg:text-start lg:w-[80%] lg:leading-loose xl:text-xs 2xl:leading-7 2xl:text-sm">
+                                                I'm Adriansyah Ravindra Abubakar, studying Information Systems at Widyatama University. With 4+ years in multimedia, I excel in UI/UX, software engineering, motion graphics, and video editing. Committed to advancing tech and design.
+                                                </p>
+                                          </div>
+                                          <div class='flex flex-row items-center justify-center gap-x-2 md:gap-x-4 lg:justify-start xl:gap-x-8'>
+                                                <a href="https://wa.link/ou0sd3">
+                                                      <button class="border-[1px] border-primary z-10 relative font-light bg-transparent group text-[10px] py-3 px-2 md:text-xs md:py-3 md:px-4 lg:py-4 lg:px-6 xl:px-8 xl:text-sm 2xl:px-12 2xl:text-base" style="font-family: 'Roboto Mono', monospace;">
+                                                      <span class="absolute top-0 left-0 w-0 h-full -z-10 duration-1000 ease-in-out bg-primary transition-all group-hover:w-full"></span>
+                                                      <span class="z-30 ease-in-out duration-1000 group-hover:text-black">_contact_me</span>
+                                                      </button>
+                                                </a> 
+                                                <a href="https://drive.google.com/file/d/1Bs4aO5AaiHDus3_5l5Yg65WciWo7DLDP/view">
+                                                      <button class="font-light py-3 px-2 text-[10px] md:py-3 md:px-4 md:text-xs lg:py-4 lg:px-6 xl:text-sm 2xl:text-base" style="font-family: 'Roboto Mono', monospace;">
+                                                      <div class="flex flex-row items-center gap-2 group md:gap-3 xl:gap-5">
+                                                                  <svg class='w-6 h-6 transition-all ease-in-out duration-500 group-hover:-rotate-90' viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <path d="M5.78281 9.98806C5.66389 9.86395 5.58314 9.70827 5.55018 9.53957C5.51721 9.37087 5.53342 9.19625 5.59687 9.0365C5.66212 8.8752 5.77398 8.73702 5.91815 8.63961C6.06232 8.54219 6.23226 8.48998 6.40625 8.48962H10.125V1.70837C10.125 1.47631 10.2172 1.25375 10.3813 1.08966C10.5454 0.925561 10.7679 0.833374 11 0.833374C11.2321 0.833374 11.4546 0.925561 11.6187 1.08966C11.7828 1.25375 11.875 1.47631 11.875 1.70837V8.48962H15.5938C15.7677 8.48998 15.9377 8.54219 16.0819 8.63961C16.226 8.73702 16.3379 8.8752 16.4031 9.0365C16.4666 9.19625 16.4828 9.37087 16.4498 9.53957C16.4169 9.70827 16.3361 9.86395 16.2172 9.98806L11.6234 14.5818C11.4562 14.7435 11.2326 14.8339 11 14.8339C10.7674 14.8339 10.5438 14.7435 10.3766 14.5818L5.78281 9.98806ZM20.625 13.0834C20.3929 13.0834 20.1704 13.1756 20.0063 13.3397C19.8422 13.5037 19.75 13.7263 19.75 13.9584V20.0834H2.25V13.9584C2.25 13.7263 2.15781 13.5037 1.99372 13.3397C1.82962 13.1756 1.60706 13.0834 1.375 13.0834C1.14294 13.0834 0.920376 13.1756 0.756282 13.3397C0.592187 13.5037 0.5 13.7263 0.5 13.9584V20.0834C0.5 20.5475 0.684374 20.9926 1.01256 21.3208C1.34075 21.649 1.78587 21.8334 2.25 21.8334H19.75C20.2141 21.8334 20.6592 21.649 20.9874 21.3208C21.3156 20.9926 21.5 20.5475 21.5 20.0834V13.9584C21.5 13.7263 21.4078 13.5037 21.2437 13.3397C21.0796 13.1756 20.8571 13.0834 20.625 13.0834Z" fill="#FCAE18"/>
+                                                                  </svg>
+                                                                  <h6 class="underline transition-all duration-700 ease-in-out group-hover:text-primary group-hover:no-underline md:text-xs xl:text-sm">download_my_cv</h6>
+                                                      </div>
+                                                      </button>
+                                                </a>                                                                                     
+                                          </div>
+                                    </div>                           
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- Portfolio -->
+                  <div class='w-full bg-background relative z-10 px-5 pt-10 pb-12 md:px-16 md:pt-24 md:pb-14 lg:px-28 lg:pt-32 lg:pb-20 xl:pb-40 xl:px-48 xl:pt-44' style={justSans.style}>
+                        <div class="flex flex-col items-center justify-center gap-5 w-full z-10 md:justify-between md:flex-row">
+                              <div class="flex flex-col w-full gap-4 md:w-[50%] md:gap-6">
+                              <h6 class="font-normal text-primary text-sm text-center md:text-start md:text-base xl:text-lg 2xl:text-2xl">
+                                    This Is All My Life's Work
+                              </h6>
+                              <h2 class="font-bold leading-none text-2xl text-center md:text-start md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
+                                    Please See, All My Amazing Portfolio Showcase
+                              </h2>
+                              </div>
+                              <p class="font-extralight text-[#DEE3EF] text-center text-xs leading-5 w-full md:text-start md:text-sm md:w-[50%] md:leading-[2rem] lg:text-base lg:leading-[2.3rem] xl:text-lg xl:leading-[2.7rem] 2xl:text-[22px] 2xl:leading-[4rem]">
+                              Explore my impressive portfolio showcase to witness a collection of my finest work. Please take a look and be inspired. I Hope You Can Entrust too, to hired me in your company.
+                              </p>
+                        </div>  
+                        <div class='grid grid-cols-12 mt-6 z-10 w-full gap-2 md:gap-4 md:mt-8 xl:mt-10'>
+                              <!-- Card Portfolio 1 -->
+                              <div class="col-span-12 w-full h-full z-10 sm:col-span-6 lg:col-span-4">
+                                    <div class='flex flex-col gap-5 h-full bg-secondary rounded-lg pt-3 px-3 pb-6 xl:pt-5 xl:pb-7 2xl:pt-6 min-[1600px]:pb-8 min-[1920px]:pb-9' style={justSans.style}>
+                                          <div class='relative rounded-md w-full h-[180px] overflow-hidden min-[412px]:h-[190px] lg:h-[160px] min-[1366px]:h-[170px] 2xl:h-[180px] min-[1920px]:h-[240px]'>
+                                                <div class='bg-gray-300 w-full h-full'></div>
+                                          </div>
+                                          <div class="flex flex-col gap-3 px-4">
+                                                <h3 id="portfolio-title-1" class="font-bold text-base xl:text-lg 2xl:text-xl"></h3>
+                                                <p id="portfolio-description-1" class="font-light opacity-60 text-xs leading-5 md:text-sm md:leading-normal 2xl:leading-relaxed 2xl:text-base"></p>
+                                          </div>
+                                    </div>
+                              </div>
+                              <!-- Card Portfolio 2 -->
+                              <div class="col-span-12 w-full h-full z-10 sm:col-span-6 lg:col-span-4">
+                                    <div class='flex flex-col gap-5 h-full bg-secondary rounded-lg pt-3 px-3 pb-6 xl:pt-5 xl:pb-7 2xl:pt-6 min-[1600px]:pb-8 min-[1920px]:pb-9' style={justSans.style}>
+                                          <div class='relative rounded-md w-full h-[180px] overflow-hidden min-[412px]:h-[190px] lg:h-[160px] min-[1366px]:h-[170px] 2xl:h-[180px] min-[1920px]:h-[240px]'>
+                                                <div class='bg-gray-300 w-full h-full'></div>
+                                          </div>
+                                          <div class="flex flex-col gap-3 px-4">
+                                                <h3 id="portfolio-title-2" class="font-bold text-base xl:text-lg 2xl:text-xl"></h3>
+                                                <p id="portfolio-description-2" class="font-light opacity-60 text-xs leading-5 md:text-sm md:leading-normal 2xl:leading-relaxed 2xl:text-base"></p>
+                                          </div>
+                                    </div>
+                              </div>
+                              <!-- Card Portfolio 3 -->
+                              <div class="col-span-12 w-full h-full z-10 sm:col-span-6 lg:col-span-4">
+                                    <div class='flex flex-col gap-5 h-full bg-secondary rounded-lg pt-3 px-3 pb-6 xl:pt-5 xl:pb-7 2xl:pt-6 min-[1600px]:pb-8 min-[1920px]:pb-9' style={justSans.style}>
+                                          <div class='relative rounded-md w-full h-[180px] overflow-hidden min-[412px]:h-[190px] lg:h-[160px] min-[1366px]:h-[170px] 2xl:h-[180px] min-[1920px]:h-[240px]'>
+                                                <div class='bg-gray-300 w-full h-full'></div>
+                                          </div>
+                                          <div class="flex flex-col gap-3 px-4">
+                                                <h3 id="portfolio-title-3" class="font-bold text-base xl:text-lg 2xl:text-xl"></h3>
+                                                <p id="portfolio-description-3" class="font-light opacity-60 text-xs leading-5 md:text-sm md:leading-normal 2xl:leading-relaxed 2xl:text-base"></p>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+
+                  <!-- Footer -->
+                  <div class="bg-footer w-full px-6 py-12 md:px-12 md:py-20 lg:px-20 xl:py-28 xl:px-28 2xl:px-32">
+                        <div class="grid grid-cols-12 gap-0 lg:gap-16 xl:gap-28 min-[1440px]:gap-32">
+                              <div class="col-span-12 lg:col-span-6 min-[1800px]:col-span-8">
+                                    <div class="flex flex-col gap-6 md:gap-10 lg:gap-14 xl:gap-16">
+                                    <h2 class="text-2xl text-center md:text-6xl lg:text-5xl lg:text-start lg:leading-tight xl:text-6xl xl:leading-snug 2xl:leading-tight 2xl:text-7xl">
+                                          LET'S WORK TOGETHER
+                                    </h2>
+                                    <div class="relative mx-auto w-[90%] md:w-[85%] lg:w-full">
+                                          <input type="text" class="w-full bg-input placeholder:text-xs py-3 px-4 md:py-4 md:px-5 md:placeholder:text-sm lg:placeholder:text-base" placeholder="Your Email Address" />
+                                          <button class="group bg-primary absolute right-0 top-0 flex flex-row items-center justify-center px-4 py-4 h-full">
+                                                <img src="path_to_icon/arrow-icon.svg" alt="Arrow Icon" class="w-4 h-4"> <!-- Ganti dengan ikon Anda -->
+                                          </button>
+                                    </div>
+                                    </div>
+                              </div>
+                              <div class="col-span-12 mt-8 md:mt-20 lg:mt-0 lg:col-span-6 min-[1800px]:col-span-4">
+                                    <div class="flex flex-col gap-8 md:gap-16 lg:gap-14">
+                                    <div class="flex flex-col gap-3 md:gap-10 lg:gap-5">
+                                          <h4 class="text-primary font-bold uppercase text-center text-base md:text-4xl lg:text-start lg:text-xl xl:text-2xl min-[1440px]:text-3xl">
+                                                STAY CONNECTED WITH ME
+                                          </h4>
+                                          <div class="flex flex-row flex-wrap justify-center gap-2 md:gap-4 lg:justify-start lg:gap-3 xl:gap-4">
+                                                <a href="https://www.instagram.com/adrnsyhrvndra/" class="p-3 group cursor-pointer rounded-2xl flex flex-row items-center justify-center border-[1px] border-primary">
+                                                <img src="path_to_icon/instagram-icon.svg" alt="Instagram Icon" class="w-6 h-6"> <!-- Ganti dengan ikon Anda -->
+                                                </a>
+                                                <a href="https://x.com/Adriansyahravi4?t=P3yVc-w71R2Oa9EFvgaQxg&s=08" class="p-3 group cursor-pointer rounded-2xl flex flex-row items-center justify-center border-[1px] border-primary">
+                                                <img src="path_to_icon/twitter-icon.svg" alt="Twitter Icon" class="w-6 h-6"> <!-- Ganti dengan ikon Anda -->
+                                                </a>
+                                                <a href="https://www.facebook.com/adrimedia.donnyvidi/" class="p-3 group cursor-pointer rounded-2xl flex flex-row items-center justify-center border-[1px] border-primary">
+                                                <img src="path_to_icon/facebook-icon.svg" alt="Facebook Icon" class="w-6 h-6"> <!-- Ganti dengan ikon Anda -->
+                                                </a>
+                                                <a href="https://www.linkedin.com/in/adriansyah-ravindra-abubakar-2039aa199/" class="p-3 group cursor-pointer rounded-2xl flex flex-row items-center justify-center border-[1px] border-primary">
+                                                <img src="path_to_icon/linkedin-icon.svg" alt="LinkedIn Icon" class="w-6 h-6"> <!-- Ganti dengan ikon Anda -->
+                                                </a>
+                                                <a href="https://wa.link/ou0sd3" class="p-3 group cursor-pointer rounded-2xl flex flex-row items-center justify-center border-[1px] border-primary">
+                                                <img src="path_to_icon/whatsapp-icon.svg" alt="WhatsApp Icon" class="w-6 h-6"> <!-- Ganti dengan ikon Anda -->
+                                                </a>
+                                                <a href="https://www.youtube.com/channel/UCwz5vQx62tecocSGPGn1o8Q" class="p-3 group cursor-pointer rounded-2xl flex flex-row items-center justify-center border-[1px] border-primary">
+                                                <img src="path_to_icon/youtube-icon.svg" alt="YouTube Icon" class="w-6 h-6"> <!-- Ganti dengan ikon Anda -->
+                                                </a>
+                                          </div>
+                                    </div>
+                                    <div class="flex flex-col items-start mx-auto gap-6 md:w-[85%] md:gap-14 md:items-start lg:gap-6 lg:w-full">
+                                          <div class="group flex flex-row items-center gap-3 md:gap-6">
+                                                <img src="path_to_icon/location-icon.svg" alt="Location Icon" class="w-5 h-5"> <!-- Ganti dengan ikon Anda -->
+                                                <h6 class="transition-all duration-500 ease-in-out font-thin tracking-wide text-xs text-white group-hover:text-primary md:text-xl lg:text-base min-[1440px]:text-lg">
+                                                Jl.Aeromodeling No.71, Kec.Arcamanik, Bandung
+                                                </h6>
+                                          </div>
+                                          <div class="group flex flex-row items-center gap-3 md:gap-6">
+                                                <img src="path_to_icon/phone-icon.svg" alt="Phone Icon" class="w-5 h-5"> <!-- Ganti dengan ikon Anda -->
+                                                <h6 class="transition-all duration-500 ease-in-out font-thin tracking-wide text-xs text-white group-hover:text-primary md:text-xl lg:text-base min-[1440px]:text-lg">
+                                                +62-811-239-927
+                                                </h6>
+                                          </div>
+                                          <div class="group flex flex-row items-center gap-3 md:gap-6">
+                                                <img src="path_to_icon/email-icon.svg" alt="Email Icon" class="w-5 h-5"> <!-- Ganti dengan ikon Anda -->
+                                                <h6 class="transition-all duration-500 ease-in-out font-thin tracking-wide text-xs text-white group-hover:text-primary md:text-xl lg:text-base min-[1440px]:text-lg">
+                                                adrimedia.indonesia@gmail.com
+                                                </h6>
+                                          </div>
+                                    </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="w-full h-0.5 bg-white opacity-10 mt-10 md:mt-20"></div>
+                        <div class="flex flex-row flex-wrap justify-between items-center mt-8 gap-5 md:gap-0 md:mt-14">
+                              <h6 class="text-white font-thin tracking-wide text-xs md:text-lg xl:text-base">
+                                    © 2024 Sarjana Brewok. All Rights Reserved.
+                              </h6>
+                              <div class="flex flex-row gap-10 items-center md:gap-6">
+                                    <h6 class="font-normal text-[11px] cursor-pointer text-white hover:text-primary md:text-base xl:text-base">Privacy Policy</h6>
+                                    <h6 class="font-normal text-[11px] cursor-pointer text-white hover:text-primary md:text-base xl:text-base">Term Of Use</h6>
+                              </div>
+                        </div>
+                  </div>
             </div>
-      </div>
-</body>
+      </body>
 </html>

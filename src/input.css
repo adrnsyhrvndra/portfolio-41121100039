@@ -1,3 +1,58 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	.font-outline-0 {
+		-webkit-text-stroke: 0px white;
+	}
+	.font-outline-0-3 {
+		-webkit-text-stroke: 0.3px white;
+	}
+	.font-outline-1 {
+		-webkit-text-stroke: 1px white;
+	}
+	.font-outline-2 {
+		-webkit-text-stroke: 2px white;
+	}
+	.font-outline-4 {
+		-webkit-text-stroke: 4px white;
+	}
+	.font-outline-1-primary {
+		-webkit-text-stroke: 1px #FCAE18;
+	}
+	.content ul {
+		list-style-type: disc;
+		padding-left: 20px;
+		margin-top:8px;
+	}
+	  
+	.content li {
+		margin-bottom: 5px;
+	}
+
+	.content a {
+		color: #FCAE18;
+	}
+}
+
+@layer components {
+
+	.tabsChildPanelListActive{
+		@apply cursor-pointer text-center bg-gradient-to-r from-[#FCAE18] to-[#FEC557] font-semibold text-secondary rounded-md text-[11px] px-3 py-3 md:rounded-[14px] md:py-4 md:text-sm md:px-4 lg:text-[11px] xl:text-sm xl:px-4 2xl:text-base 2xl:px-6;
+	}
+
+	.tabsChildPanelList{
+		@apply cursor-pointer text-center bg-[#2B3441] font-medium text-white rounded-md text-[11px] px-3 py-3 md:rounded-[14px] md:py-4 md:text-sm md:px-4 lg:text-[11px] xl:text-sm xl:px-4 2xl:text-base 2xl:px-6;
+	}
+	
+	.tabsChildPanelButtonListActive{
+		@apply px-4 py-2 w-fit rounded-full bg-primary flex flex-row items-center justify-center text-base text-secondary font-normal lg:text-lg lg:px-6 2xl:px-8;
+	}
+
+	.tabsChildPanelButtonList{
+		@apply px-4 py-2 w-fit rounded-full bg-secondary flex flex-row items-center justify-center text-base text-slate-300 font-normal lg:text-lg lg:px-6 2xl:px-8;
+	}
+	
+
+}
